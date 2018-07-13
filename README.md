@@ -5,7 +5,8 @@
 </div>
 
 # devserver-qrcode-webpack-plugin
-这是个基于webpack-dev-server的webpack插件，用于在终端生成二维码
+This is a webpack plugin based on [webpack-dev-server](https://github.com/webpack/webpack-dev-server), which is used to generate qrcode at the terminal.
+
 ## Install
 ```
 npm install devserver-qrcode-webpack-plugin --save-dev
@@ -24,7 +25,15 @@ module.exports = {
     filename: 'index_bundle.js'
   },
   plugins: [
-    new DevserverQRcodeWebpackPlugin()
-  ]
+    new DevserverQRcodeWebpackPlugin({
+      size: 'small'
+    })
+  ],
+  devServer: {}
 }
 ```
+## Options
+
+|Name|Type|Default|Description|
+|:--:|:--:|:--:|:---|
+|size|String|'small'|'small' or 'large'|
