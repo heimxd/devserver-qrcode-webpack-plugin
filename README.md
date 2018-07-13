@@ -3,6 +3,7 @@
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
 </div>
+
 # devserver-qrcode-webpack-plugin
 这是个基于webpack-dev-server的webpack插件，用于在终端生成二维码
 ## Install
