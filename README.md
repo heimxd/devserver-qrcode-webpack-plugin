@@ -11,7 +11,7 @@
 npm install devserver-qrcode-webpack-plugin --save-dev
 ```
 ```
-yarn add devserver-qrcode-webpack-plugi --dev
+yarn add devserver-qrcode-webpack-plugin --dev
 ```
 ## Usage
 ```
