@@ -1,6 +1,6 @@
 {
   "name": "devserver-qrcode-webpack-plugin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "基于webpack-dev-server的webpack插件 生成二维码",
   "main": "lib/index.js",
   "scripts": {
